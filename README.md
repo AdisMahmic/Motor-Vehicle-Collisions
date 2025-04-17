@@ -9,8 +9,11 @@
 Car crashes are a very common occurrence in everyday life and are especially prominent in big cities such as New York. With the Motor Vehicle Collision Crashes dataset, I aim to provide evidence for my hypothesis that the number one cause of motor vehicle crashes is texting while driving. The dataset used was pulled from Data.Gov from the New York City Police Department. According to the CDC, over 3,100 people were killed and another 424,000 were injured in the United States due to a distracted driver in 2019. 
 Investigating this dataset can help inform policy decisions, enforcement strategies, and public awareness campaigns aimed at reducing accidents and improving road safety. <!-- You can look at other TAP projects if you need a better idea of how to describe your workshops objectives -->
 
+## 🐘 What is Hadoop?
+Apache Hadoop is an open source framework that efficiently stores and proccesses large datasets that contain up to petabytes of data. Instead of using one computer to store and proccess data, Hadoop uses a distributed system to analyze datasets in parallel more quickly.
 
-
+## 🗺️ Map/Reduce:
+Map reduce is a java based distributed excecution framework within Hadoop. The mapper maps a dataset into key value pairs, and then sends the them to the reducer which aggregates the values for each key, making for more useful data.
 ## :bulb: Project Information
 * <b>Difficulty Level:</b> Intermediate
 * <b>Data Source: [data.cityofnewyork.us](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes)
@@ -30,4 +33,5 @@ Pie Chart:
 
 Tree Map: 
 ![image](https://github.com/user-attachments/assets/21af820f-903c-49dc-8025-a2da120db91d)
+
 
